@@ -1,0 +1,11 @@
+North + Left = East
+North + Right = West
+
+South + Left = East
+South + Right = West
+
+East + Left = North
+East + Right =South
+
+West + Left = South
+West + Right = North

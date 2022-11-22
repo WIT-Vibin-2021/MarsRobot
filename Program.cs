@@ -19,7 +19,7 @@ namespace MarsRobot
 
             x = 1; // Initial Position
             y = 1; // Initial Position
-            dir = "NORTH";
+            dir = "NORTH"; // Initial Position
         }
 
         public void robot_moving_forward()
@@ -95,7 +95,6 @@ namespace MarsRobot
                     case 'L':
                         robot_moving_left();
                         break;
-
                     case 'R':                        
                         robot_moving_right();
                         break;
@@ -114,7 +113,6 @@ namespace MarsRobot
     internal class Program
     {
         
-
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
@@ -124,11 +122,12 @@ namespace MarsRobot
             string[] str = s1.Split("x");
             int row = Int32.Parse(str[0]);
             int col = Int32.Parse(str[1]);
-            Console.WriteLine(row);
-            Console.WriteLine(col);
+            //Console.WriteLine(row);
+            //Console.WriteLine(col);
+
             Robot robotObj = new  Robot( row, col);
             robotObj.robot_moving(s2);
-            Console.WriteLine(robotObj.x + " " + robotObj.y + " " + robotObj.dir);
+            Console.WriteLine(robotObj.x + "," + robotObj.y + "," + robotObj.dir);
         }
 
        
