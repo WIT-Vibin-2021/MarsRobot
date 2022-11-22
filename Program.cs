@@ -90,21 +90,21 @@ namespace MarsRobot
             char[] moveCommand = command.ToCharArray();
             for(int i=0; i< moveCommand.Length;i++)
             {
-                if (moveCommand[i]=='L')
+                switch (moveCommand[i])
                 {
-                    robot_moving_left();
-                }
-                else if (moveCommand[i] == 'R')
-                {
-                    robot_moving_right();
-                }
-                else if (moveCommand[i] == 'F')
-                {
-                    robot_moving_forward();
-                }
-                else
-                {
-                    Console.WriteLine("Invalid Command Value !!");
+                    case 'L':
+                        robot_moving_left();
+                        break;
+
+                    case 'R':                        
+                        robot_moving_right();
+                        break;
+                    case 'F':                        
+                        robot_moving_forward();
+                        break;
+                    default:
+                        Console.WriteLine("Invalid Command Value !!");
+                        break;
                 }
 
             }
