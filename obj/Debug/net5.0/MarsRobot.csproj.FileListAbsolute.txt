@@ -1,0 +1,16 @@
+D:\MarsRobot\MarsRobot\bin\Debug\net5.0\MarsRobot.exe
+D:\MarsRobot\MarsRobot\bin\Debug\net5.0\MarsRobot.deps.json
+D:\MarsRobot\MarsRobot\bin\Debug\net5.0\MarsRobot.runtimeconfig.json
+D:\MarsRobot\MarsRobot\bin\Debug\net5.0\MarsRobot.runtimeconfig.dev.json
+D:\MarsRobot\MarsRobot\bin\Debug\net5.0\MarsRobot.dll
+D:\MarsRobot\MarsRobot\bin\Debug\net5.0\MarsRobot.pdb
+D:\MarsRobot\MarsRobot\obj\Debug\net5.0\MarsRobot.csproj.AssemblyReference.cache
+D:\MarsRobot\MarsRobot\obj\Debug\net5.0\MarsRobot.GeneratedMSBuildEditorConfig.editorconfig
+D:\MarsRobot\MarsRobot\obj\Debug\net5.0\MarsRobot.AssemblyInfoInputs.cache
+D:\MarsRobot\MarsRobot\obj\Debug\net5.0\MarsRobot.AssemblyInfo.cs
+D:\MarsRobot\MarsRobot\obj\Debug\net5.0\MarsRobot.csproj.CoreCompileInputs.cache
+D:\MarsRobot\MarsRobot\obj\Debug\net5.0\MarsRobot.dll
+D:\MarsRobot\MarsRobot\obj\Debug\net5.0\refint\MarsRobot.dll
+D:\MarsRobot\MarsRobot\obj\Debug\net5.0\MarsRobot.pdb
+D:\MarsRobot\MarsRobot\obj\Debug\net5.0\MarsRobot.genruntimeconfig.cache
+D:\MarsRobot\MarsRobot\obj\Debug\net5.0\ref\MarsRobot.dll
