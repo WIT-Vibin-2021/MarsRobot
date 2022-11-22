@@ -8,7 +8,7 @@ namespace MarsRobot
         public int y { get; set; } // Robot y-axis
 
         public string dir; // Moving direction
-        string[] str_dir = { "L", "R", "F" };
+        string[] str_dir = { "NORTH", "EAST", "SOUTH","WEST" };
         private int row_max;
         private int col_max;
 
@@ -19,8 +19,34 @@ namespace MarsRobot
 
             x = 1; // Initial Position
             y = 1; // Initial Position
+            dir = "NORTH";
         }
 
+        public void robot_moving_forward()
+        {
+            switch(dir)
+            {
+                case "NORTH":
+                    if (y < row_max)
+                        y++;
+                    break;
+                case "SOUTH":
+                    if(y>0)
+                        y--;
+                    break;
+                case "EAST":
+                    if (x < col_max)
+                        x++;
+                    break;
+                case "WEST":
+                    if (x > 0)
+                        x--;
+                    break;
+                default:
+                    break;
+            }
+
+        }
         public void robot_moving(string command)
         {
             char[] moveCommand = command.ToCharArray();
@@ -36,7 +62,7 @@ namespace MarsRobot
                 }
                 else if (moveCommand[i] == 'F')
                 {
-                    //Move forward
+                    robot_moving_forward();
                 }
                 else
                 {
